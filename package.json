@@ -1,0 +1,36 @@
+{
+  "name": "ndarray-trace",
+  "version": "1.0.0",
+  "description": "Computes the trace of an ndarray",
+  "main": "trace.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "ndarray-diagonal": "^1.0.0",
+    "ndarray-ops": "^1.2.2"
+  },
+  "devDependencies": {
+    "ndarray-pack": "^1.1.1",
+    "tape": "^3.0.0"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikolalysenko/ndarray-trace.git"
+  },
+  "keywords": [
+    "trace",
+    "ndarray",
+    "sum",
+    "diagonal"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikolalysenko/ndarray-trace/issues"
+  },
+  "homepage": "https://github.com/mikolalysenko/ndarray-trace"
+}
